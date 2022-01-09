@@ -1,0 +1,9 @@
+Change Gitpage link:
+
+theyoungpromise.com
+
+
+https://developers.facebook.com/tools/debug
+
+For Deployment. 
+Copy all folder from Pages to dist

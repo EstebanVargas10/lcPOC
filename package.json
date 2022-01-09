@@ -1,0 +1,23 @@
+{
+  "name": "luiscampos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EstebanVargas10/typTest01.git"
+  },
+  "homepage": "https://theyoungpromise.com/",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "git-rev-sync": "^3.0.1"
+  }
+}

@@ -18,19 +18,9 @@ app.get('/ParaMi', (req, res) => {
   res.sendFile(__dirname + '/pages/ParaMi.html');
 });
 
-app.get('/parami', (req, res) => {
-  res.sendFile(__dirname + '/pages/ParaMi.html');
+app.get('/YouTube', (req, res) => {
+  res.sendFile(__dirname + '/pages/YouTube.html');
 });
-
-// app.get('/Cacao', (req, res) => {
-//   console.log('Cacao');
-//   res.sendFile(__dirname + '/pages/Cacao.html');
-// });
-
-// // Social
-// app.get('/YT', (req, res) => {
-//   res.sendFile(__dirname + '/pages/YT.html');
-// });
 
 // // Config
 // app.get('/deploy', (req, res) => {
